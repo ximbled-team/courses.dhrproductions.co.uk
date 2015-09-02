@@ -517,3 +517,7 @@ table tfoot {
     display: block;
   }
 }
+
+#myCarousel > div > div:nth-child(1) > img {
+  vertical-align: center;
+}
