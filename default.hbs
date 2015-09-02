@@ -29,7 +29,11 @@
         {{#if @blog.logo}}<a id="blog-logo" href="{{@blog.url}}"><div class="bloglogo" style="background: url({{@blog.logo}})"></div></a>{{/if}}
         <h1 class="blog-title"><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
         {{> header-description}}
-        {{ navigation }}
+        <ul class="nav">
+            {{#foreach nav}}
+                <li class="nav-{{label}} {{#if current}}nav-current{{/if}}"><a href="{{url}}">{{label}}</a></li>
+            {{/foreach}}
+        </ul>
         {{!> menu}}
     </header>
 
