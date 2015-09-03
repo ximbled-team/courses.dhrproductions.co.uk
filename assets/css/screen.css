@@ -524,6 +524,13 @@ table tfoot {
       margin: auto;
   }
 
-.nav > li {
+.nav > ul > li {
   display: inline-block;
+  font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  margin: 0;
+  padding: 0 .5em;
+  text-align: center;
+  text-transform: uppercase;
 }
