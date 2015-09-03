@@ -520,6 +520,10 @@ table tfoot {
 
 .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
-      width: 70%;
+      width: 60%;
       margin: auto;
+  }
+
+  #site-head > ul > li.nav-home.nav-current {
+    display: inline-block;
   }
