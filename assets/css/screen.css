@@ -106,7 +106,7 @@ article.preview p.readmore {
 #blog-logo {
   display: block;
   max-width: 100%;
-  margin: auto 0;
+  margin: auto;
   text-align: center;
 }
 #blog-logo div.bloglogo {
