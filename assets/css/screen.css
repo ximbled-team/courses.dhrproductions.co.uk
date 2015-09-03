@@ -524,6 +524,6 @@ table tfoot {
       margin: auto;
   }
 
- #site-head.nav > ul > li {
-    display: inline-block;
- }
+.nav > li {
+  display: inline-block;
+}
