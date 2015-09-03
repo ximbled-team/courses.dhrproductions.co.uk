@@ -307,7 +307,7 @@ footer.post-footer {
   overflow: hidden;
   text-align: center;
 }
-.nav > ul > li {
+.nav > li {
   display: inline-block;
   font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
   font-size: 18px;
@@ -317,7 +317,7 @@ footer.post-footer {
   text-align: center;
   text-transform: uppercase;
 }
-.nav > ul > li > a {
+.nav > li > a {
   display: block;
   padding: .5em 0;
 }
@@ -534,3 +534,5 @@ table tfoot {
   text-align: center;
   text-transform: uppercase;
 }
+
+.nav>li>a 
