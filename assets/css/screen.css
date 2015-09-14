@@ -535,4 +535,7 @@ table tfoot {
   text-transform: uppercase;
 }
 
-.nav>li>a 
+#myCarousel > div > img {
+  max-width: 600px;
+  max-height: 400px;
+}
