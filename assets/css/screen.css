@@ -520,7 +520,7 @@ table tfoot {
 
 .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
-      width: 60%;
+      height: 300px;
       margin: auto;
   }
 
@@ -533,9 +533,4 @@ table tfoot {
   padding: 0 .5em;
   text-align: center;
   text-transform: uppercase;
-}
-
-#myCarousel > div > img {
-  max-width: 600px;
-  max-height: 400px;
 }
