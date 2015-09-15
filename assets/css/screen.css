@@ -534,3 +534,9 @@ table tfoot {
   text-align: center;
   text-transform: uppercase;
 }
+
+#myCarousel > div > a.left.carousel-control,
+#myCarousel > div > a.right.carousel-control {
+  background-image: none;
+  background-repeat: no-repeat;
+}
