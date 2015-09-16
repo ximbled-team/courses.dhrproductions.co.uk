@@ -70,7 +70,7 @@ p code {
   line-height: 1.2em;
 }
 h1 {
-  color: #151515;
+  color: #E0EEEE;
   font-family: "Roboto Slab", "Merriweather", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
   font-size: 36px;
   font-weight: 400;
@@ -112,11 +112,6 @@ article.preview p.readmore {
 #blog-logo div.bloglogo {
   max-width: 300px;
   height: 300px;
-  border-radius: 50%;
-  -webkit-background-size: cover !important;
-  background-size: cover !important;
-  background-position: center center !important;
-  background-color: #ffffff;
 }
 h1.blog-title,
 h2.blog-description {
