@@ -1,6 +1,57 @@
 {{!< default }}
 <main class="content" role="main">
 <div class="container">
+<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="2500">
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item">
+        <img src="{{ asset '/images/n-1.png' }}" alt="picture-1">
+      </div>
+    
+      <div class="item">
+        <img src="{{ asset '/images/n-2.png' }}" alt="picture-2">
+      </div>
+
+      <div class="item">
+        <img src="{{ asset '/images/n-3.png' }}" alt="picture-3">
+      </div>
+
+      <div class="item">
+        <img src="{{ asset '/images/n-4.png' }}" alt="picture-4">
+      </div>
+
+      <div class="item">
+        <img src="{{ asset '/images/n-5.png' }}" alt="picture-5">
+      </div>
+
+      <div class="item">
+        <img src="{{ asset '/images/n-6.png' }}" alt="picture-6">
+      </div>
+
+      <div class="item">
+        <img src="{{ asset '/images/n-7.png' }}" alt="picture-7">
+      </div>
+
+      <div class="item">
+        <img src="{{ asset '/images/n-8.png' }}" alt="picture-8">
+      </div>
+
+      <div class="item">
+        <img src="{{ asset '/images/n-9.png' }}" alt="picture-9">
+      </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
   <h1 class=post-title">Latest News</h1>
   {{#foreach posts}}
   <article class="preview">
